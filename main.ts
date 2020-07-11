@@ -2,6 +2,9 @@ namespace SpriteKind {
     export const picture = SpriteKind.create()
     export const Map = SpriteKind.create()
 }
+function Sprite_desappear (Sprite2: Sprite) {
+	
+}
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
 	
 })
@@ -45,8 +48,9 @@ let Peach = sprites.create(img`
 . . . . 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 . . . . . . 
 . . . . 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 . . . . . . 
 `, SpriteKind.picture)
-Peach.setPosition(999, 999)
-let World_list = [sprites.create(img`
+Sprite_desappear(Peach)
+let Block_list: Sprite[] = []
+Block_list.push(sprites.create(img`
 4 d d d d d d d d f 4 d d d d 4 
 d 4 4 4 4 4 4 4 4 f d 4 4 4 4 f 
 d 4 4 4 4 4 4 4 4 f d 4 4 4 4 f 
@@ -63,7 +67,8 @@ d 4 d d f f f f d 4 4 4 4 4 4 f
 d 4 4 4 d d d f d 4 4 4 4 4 4 f 
 d 4 4 4 4 4 4 f d 4 4 4 4 4 f f 
 4 f f f f f f 4 d f f f f f f 4 
-`, SpriteKind.Map), sprites.create(img`
+`, SpriteKind.Map))
+Block_list.push(sprites.create(img`
 f 4 4 4 4 4 4 4 4 4 4 4 4 4 4 f 
 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
 4 5 f 5 5 5 5 5 5 5 5 5 5 f 5 f 
@@ -80,7 +85,8 @@ f 4 4 4 4 4 4 4 4 4 4 4 4 4 4 f
 4 5 f 5 5 5 5 5 f f 5 5 5 f 5 f 
 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
 f f f f f f f f f f f f f f f f 
-`, SpriteKind.Map), sprites.create(img`
+`, SpriteKind.Map))
+Block_list.push(sprites.create(img`
 4 d d d d d d d d d d d d d d f 
 d 4 d d d d d d d d d d d d f f 
 d d 4 d d d d d d d d d d f f f 
@@ -97,7 +103,9 @@ d d d f f f f f f f f f 4 f f f
 d d f f f f f f f f f f f 4 f f 
 d f f f f f f f f f f f f f 4 f 
 f f f f f f f f f f f f f f f 4 
-`, SpriteKind.Map), 0]
+`, SpriteKind.Map))
+Sprite_desappear(Block_list[0])
+Sprite_desappear(Block_list[1])
 forever(function () {
 	
 })
