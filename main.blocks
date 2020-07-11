@@ -1,0 +1,39 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="=?WW9.X8/bW}nr[!LAZY">mySprite</variable><variable id="B^zm1m5C18UJ,9rBD:%9">Mario</variable><variable type="KIND_SpriteKind" id="Em[TKl=OD);HC!R3_.KZ">Player</variable><variable type="KIND_SpriteKind" id="Y0xlwQ5fSBe$Dk-tX=Rv">Projectile</variable><variable type="KIND_SpriteKind" id="t_.1w)hP[oXe/Bh:-^0Q">Food</variable><variable type="KIND_SpriteKind" id="0/Z-Fqdb(5$BFav[gBUP">Enemy</variable><variable type="KIND_SpriteKind" id="Hi,O~qkriH:_x4bC0.1b">picture</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="B^zm1m5C18UJ,9rBD:%9">Mario</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . 2 2 2 2 2 . . . . . . 
+. . . . 2 2 2 2 2 2 2 2 2 . . . 
+. . . . e e e 4 4 f 4 . . . . . 
+. . . e 4 e 4 4 4 f 4 4 . . . . 
+. . . e 4 e e 4 4 4 e 4 4 4 . . 
+. . . e e 4 4 4 4 e e e e . . . 
+. . . . . 4 4 4 4 4 4 4 . . . . 
+. . . . 2 2 8 2 2 2 . . . . . . 
+. . . 2 2 2 8 2 2 8 2 2 2 . . . 
+. . 2 2 2 2 8 8 8 8 2 2 2 2 . . 
+. . 4 4 2 8 5 8 8 5 8 2 4 4 . . 
+. . 4 4 4 8 8 8 8 8 8 4 4 4 . . 
+. . 4 4 8 8 8 8 8 8 8 8 4 4 . . 
+. . . . 8 8 8 . . 8 8 8 . . . . 
+. . . e e e . . . . e e e . . . 
+. . e e e e . . . . e e e e . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set"><field name="VAR" id="=?WW9.X8/bW}nr[!LAZY">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . 4 . 4 4 . 4 . . . . . . . . . . . . . . 
+. . . . . 4 4 4 4 4 4 . . . . . . . . . . . . . . 
+. . . . 5 5 5 5 5 5 5 5 5 . . . . . . . . . . . . 
+. . . 5 5 5 5 5 5 5 5 5 5 5 . . . . . . . . . . . 
+. . . . 5 5 5 d d d 5 5 5 5 . . . . . . . . . . . 
+. . . . . 5 d d f d d 5 d 5 . . . . . . . . . . . 
+. . . . d d d d d d d d d 5 5 . . . . . . . . . . 
+. . . . . d d d d d d d d 5 5 . . . . . . . . . . 
+. . . . . d 2 2 d d d 5 5 5 5 5 . . . . . . . . . 
+. . . . . . d d d d d 5 3 5 5 5 . . . . . . . . . 
+. . . . . . 5 5 3 d 3 3 3 3 5 5 5 . . . . . . . . 
+. . . . . . 5 3 d d 3 d d 3 5 5 5 . . . . . . . . 
+. . . . . . d 3 3 3 3 d d 5 5 5 . . . . . . . . . 
+. . . . d d d d d d d d 3 5 5 . . . . . . . . . . 
+. . . . . d d d d d d d 3 5 5 . . . . . . . . . . 
+. . . . . . . 5 5 3 3 3 3 3 3 3 . . . . . . . . . 
+. . . . . . 3 3 3 3 3 3 3 3 3 3 3 . . . . . . . . 
+. . . . . 3 3 3 3 3 3 3 3 3 3 3 3 3 . . . . . . . 
+. . . . 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 . . . . . . 
+. . . . 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">picture</field></shadow></value></block></value></block></next></block></statement></block></xml>
