@@ -5,6 +5,7 @@ namespace SpriteKind {
 function Sprite_desappear (Sprite2: Sprite) {
     Sprite2.setPosition(999, 999)
 }
+let Map_X = 0
 scene.setBackgroundImage(img`
 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
@@ -228,14 +229,21 @@ Sprite_desappear(Block_list[0])
 Sprite_desappear(Block_list[1])
 Sprite_desappear(Block_list[2])
 forever(function () {
-    Mario.say("" + X + " ")
+    Mario.say(Mario)
     if (controller.left.isPressed()) {
-        X += -1
-        if (X < 0) {
-            X = 0
-        }
+        Mario.x += -1
     }
     if (controller.right.isPressed()) {
         X += 1
     }
+    X += X * 0.9
+    Map_X += X
+    if (controller.A.isPressed()) {
+        if (Mario.overlapsWith(Block_list)) {
+        	
+        }
+    }
+})
+forever(function () {
+	
 })
