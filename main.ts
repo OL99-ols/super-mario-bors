@@ -3,11 +3,9 @@ namespace SpriteKind {
     export const Map = SpriteKind.create()
 }
 function Sprite_desappear (Sprite2: Sprite) {
-	
+    Sprite2.setPosition(999, 999)
 }
-controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
-	
-})
+let X = 0
 let Mario = sprites.create(img`
 . . . . . 2 2 2 2 2 . . . . . . 
 . . . . 2 2 2 2 2 2 2 2 2 . . . 
@@ -106,6 +104,16 @@ f f f f f f f f f f f f f f f 4
 `, SpriteKind.Map))
 Sprite_desappear(Block_list[0])
 Sprite_desappear(Block_list[1])
+Sprite_desappear(Block_list[2])
 forever(function () {
-	
+    Mario.say("" + X + " ")
+    if (controller.left.isPressed()) {
+        X += -1
+        if (X < 0) {
+            X = 0
+        }
+    }
+    if (controller.right.isPressed()) {
+        X += 1
+    }
 })
