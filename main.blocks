@@ -53,4 +53,38 @@ d 4 d d f f f f d 4 4 4 4 4 4 f
 d 4 4 4 d d d f d 4 4 4 4 4 4 f 
 d 4 4 4 4 4 4 f d 4 4 4 4 4 f f 
 4 f f f f f f 4 d f f f f f f 4 
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id="G?bEteqCpDGC1Nk;h;OX"><field name="MEMBER">Map</field></shadow></value></block></value><value name="ADD1"><shadow type="math_number" id="OGn3oGvfGAae4_(t,K#O"><field name="NUM">2</field></shadow></value><value name="ADD2"><shadow type="math_number" id="|oeKlAy9bcplS9|4m-]C"><field name="NUM">0</field></shadow></value><value name="ADD3"><shadow type="math_number" id="b]%UhS]C6%(~q?O)vu5G"><field name="NUM">0</field></shadow></value></block></value></block></next></block></next></block></next></block></statement></block><block type="forever" id="gt@YIA3O~!axAn:f-6$:" x="10" y="410"/><block type="keyonevent" id="Oh;5iX,;HY0Y*.3b[ofl" x="270" y="430"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="G?bEteqCpDGC1Nk;h;OX"><field name="MEMBER">Map</field></shadow></value></block></value><value name="ADD1"><shadow type="math_number" id="OGn3oGvfGAae4_(t,K#O"><field name="NUM">2</field></shadow><block type="spritescreate" id="hA@@!/P/%r6cFfu~/-^!"><value name="img"><shadow type="screen_image_picker" id="QsGcE+}*nP8s:u]U,^.0"><field name="img">img`
+f 4 4 4 4 4 4 4 4 4 4 4 4 4 4 f 
+4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+4 5 f 5 5 5 5 5 5 5 5 5 5 f 5 f 
+4 5 5 5 5 4 4 4 4 4 5 5 5 5 5 f 
+4 5 5 5 4 4 f f f 4 4 5 5 5 5 f 
+4 5 5 5 4 4 f 5 5 4 4 f 5 5 5 f 
+4 5 5 5 4 4 f 5 5 4 4 f 5 5 5 f 
+4 5 5 5 5 f f 5 4 4 4 f 5 5 5 f 
+4 5 5 5 5 5 5 4 4 f f f 5 5 5 f 
+4 5 5 5 5 5 5 4 4 f 5 5 5 5 5 f 
+4 5 5 5 5 5 5 5 f f 5 5 5 5 5 f 
+4 5 5 5 5 5 5 4 4 5 5 5 5 5 5 f 
+4 5 5 5 5 5 5 4 4 f 5 5 5 5 5 f 
+4 5 f 5 5 5 5 5 f f 5 5 5 f 5 f 
+4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+f f f f f f f f f f f f f f f f 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="oyNE`CD_x.SO@#^OT7if"><field name="MEMBER">Map</field></shadow></value></block></value><value name="ADD2"><shadow type="math_number" id="|oeKlAy9bcplS9|4m-]C"><field name="NUM">0</field></shadow><block type="spritescreate" id="~S0-2`sdGv~U$Zl*e84!"><value name="img"><shadow type="screen_image_picker" id="53VZsau3}QrTff#OZ@Kf"><field name="img">img`
+4 d d d d d d d d d d d d d d f 
+d 4 d d d d d d d d d d d d f f 
+d d 4 d d d d d d d d d d f f f 
+d d d 4 d d d d d d d d f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d f f f f f f f f f 4 f f f 
+d d f f f f f f f f f f f 4 f f 
+d f f f f f f f f f f f f f 4 f 
+f f f f f f f f f f f f f f f 4 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="Wf;orT9Ze1ySLKaV2t])"><field name="MEMBER">Map</field></shadow></value></block></value><value name="ADD3"><shadow type="math_number" id="b]%UhS]C6%(~q?O)vu5G"><field name="NUM">0</field></shadow></value></block></value></block></next></block></next></block></next></block></statement></block><block type="forever" id="gt@YIA3O~!axAn:f-6$:" x="10" y="410"/><block type="keyonevent" id="Oh;5iX,;HY0Y*.3b[ofl" x="270" y="430"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>

@@ -63,7 +63,41 @@ d 4 d d f f f f d 4 4 4 4 4 4 f
 d 4 4 4 d d d f d 4 4 4 4 4 4 f 
 d 4 4 4 4 4 4 f d 4 4 4 4 4 f f 
 4 f f f f f f 4 d f f f f f f 4 
-`, SpriteKind.Map), 2, 0, 0]
+`, SpriteKind.Map), sprites.create(img`
+f 4 4 4 4 4 4 4 4 4 4 4 4 4 4 f 
+4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+4 5 f 5 5 5 5 5 5 5 5 5 5 f 5 f 
+4 5 5 5 5 4 4 4 4 4 5 5 5 5 5 f 
+4 5 5 5 4 4 f f f 4 4 5 5 5 5 f 
+4 5 5 5 4 4 f 5 5 4 4 f 5 5 5 f 
+4 5 5 5 4 4 f 5 5 4 4 f 5 5 5 f 
+4 5 5 5 5 f f 5 4 4 4 f 5 5 5 f 
+4 5 5 5 5 5 5 4 4 f f f 5 5 5 f 
+4 5 5 5 5 5 5 4 4 f 5 5 5 5 5 f 
+4 5 5 5 5 5 5 5 f f 5 5 5 5 5 f 
+4 5 5 5 5 5 5 4 4 5 5 5 5 5 5 f 
+4 5 5 5 5 5 5 4 4 f 5 5 5 5 5 f 
+4 5 f 5 5 5 5 5 f f 5 5 5 f 5 f 
+4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 f 
+f f f f f f f f f f f f f f f f 
+`, SpriteKind.Map), sprites.create(img`
+4 d d d d d d d d d d d d d d f 
+d 4 d d d d d d d d d d d d f f 
+d d 4 d d d d d d d d d d f f f 
+d d d 4 d d d d d d d d f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d d 4 4 4 4 4 4 4 4 f f f f 
+d d d f f f f f f f f f 4 f f f 
+d d f f f f f f f f f f f 4 f f 
+d f f f f f f f f f f f f f 4 f 
+f f f f f f f f f f f f f f f 4 
+`, SpriteKind.Map), 0]
 forever(function () {
 	
 })
