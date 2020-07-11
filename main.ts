@@ -229,8 +229,6 @@ f f f f f f f f f f f f f f f 4
 Sprite_desappear(Block_list[0])
 Sprite_desappear(Block_list[1])
 Sprite_desappear(Block_list[2])
-game.showLongText("Princess Peach got in to trouble!", DialogLayout.Bottom)
-Peach.setPosition(20, 49)
 forever(function () {
     if (controller.left.isPressed()) {
         Mario.x += -1
