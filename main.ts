@@ -148,7 +148,6 @@ let Mario = sprites.create(img`
 . . . e e e . . . . e e e . . . 
 . . e e e e . . . . e e e e . . 
 `, SpriteKind.Player)
-Sprite_desappear(Mario)
 let Peach = sprites.create(img`
 . . . . . 4 . 4 4 . 4 . . . . . . . . . . . . . . 
 . . . . . 4 4 4 4 4 4 . . . . . . . . . . . . . . 
