@@ -228,6 +228,7 @@ f f f f f f f f f f f f f f f 4
 Sprite_desappear(Block_list[0])
 Sprite_desappear(Block_list[1])
 Sprite_desappear(Block_list[2])
+let World_11_block_list = 0
 forever(function () {
     if (controller.left.isPressed()) {
         Mario.x += -1
