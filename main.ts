@@ -1,6 +1,10 @@
 namespace SpriteKind {
     export const picture = SpriteKind.create()
+    export const Map = SpriteKind.create()
 }
+controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
+	
+})
 let Mario = sprites.create(img`
 . . . . . 2 2 2 2 2 . . . . . . 
 . . . . 2 2 2 2 2 2 2 2 2 . . . 
@@ -19,7 +23,7 @@ let Mario = sprites.create(img`
 . . . e e e . . . . e e e . . . 
 . . e e e e . . . . e e e e . . 
 `, SpriteKind.Player)
-let mySprite = sprites.create(img`
+let Peach = sprites.create(img`
 . . . . . 4 . 4 4 . 4 . . . . . . . . . . . . . . 
 . . . . . 4 4 4 4 4 4 . . . . . . . . . . . . . . 
 . . . . 5 5 5 5 5 5 5 5 5 . . . . . . . . . . . . 
@@ -41,3 +45,25 @@ let mySprite = sprites.create(img`
 . . . . 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 . . . . . . 
 . . . . 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 . . . . . . 
 `, SpriteKind.picture)
+Peach.setPosition(999, 999)
+let World_list = [sprites.create(img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, SpriteKind.Map), 2, 0, 0]
+forever(function () {
+	
+})

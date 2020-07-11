@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="=?WW9.X8/bW}nr[!LAZY">mySprite</variable><variable id="B^zm1m5C18UJ,9rBD:%9">Mario</variable><variable type="KIND_SpriteKind" id="Em[TKl=OD);HC!R3_.KZ">Player</variable><variable type="KIND_SpriteKind" id="Y0xlwQ5fSBe$Dk-tX=Rv">Projectile</variable><variable type="KIND_SpriteKind" id="t_.1w)hP[oXe/Bh:-^0Q">Food</variable><variable type="KIND_SpriteKind" id="0/Z-Fqdb(5$BFav[gBUP">Enemy</variable><variable type="KIND_SpriteKind" id="Hi,O~qkriH:_x4bC0.1b">picture</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="B^zm1m5C18UJ,9rBD:%9">Mario</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="=?WW9.X8/bW}nr[!LAZY">mySprite</variable><variable id="B^zm1m5C18UJ,9rBD:%9">Mario</variable><variable id="BPe/Ykdo?^[dWQ[YSUT`">Peach</variable><variable id="b_o(Ep*q]h$;KWY|%kVb">list</variable><variable id=",#5K4QqZ9,0k{7L]P|+I">World list</variable><variable type="KIND_SpriteKind" id="Em[TKl=OD);HC!R3_.KZ">Player</variable><variable type="KIND_SpriteKind" id="Y0xlwQ5fSBe$Dk-tX=Rv">Projectile</variable><variable type="KIND_SpriteKind" id="t_.1w)hP[oXe/Bh:-^0Q">Food</variable><variable type="KIND_SpriteKind" id="0/Z-Fqdb(5$BFav[gBUP">Enemy</variable><variable type="KIND_SpriteKind" id="Hi,O~qkriH:_x4bC0.1b">picture</variable><variable type="KIND_SpriteKind" id="[nrO56tN35-!pR}|atfW">Map</variable></variables><block type="pxt-on-start" id="xY#sYd4eWBs,8x+w!6O%" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="|k-5IyYsA7-}BCv#HdT1"><field name="VAR" id="B^zm1m5C18UJ,9rBD:%9">Mario</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="3k2[!oVD)-n{Sr8Gl,3C"><value name="img"><shadow type="screen_image_picker" id="[|a9SG`VM4|!x}ej$y/Z"><field name="img">img`
 . . . . . 2 2 2 2 2 . . . . . . 
 . . . . 2 2 2 2 2 2 2 2 2 . . . 
 . . . . e e e 4 4 f 4 . . . . . 
@@ -15,7 +15,7 @@
 . . . . 8 8 8 . . 8 8 8 . . . . 
 . . . e e e . . . . e e e . . . 
 . . e e e e . . . . e e e e . . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set"><field name="VAR" id="=?WW9.X8/bW}nr[!LAZY">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="G|#(H%-h#r5Nm7?nog@)"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id=")31MQt*6TLF=`;[SQs`z"><field name="VAR" id="BPe/Ykdo?^[dWQ[YSUT`">Peach</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="EI`J@maas~udU#kn93)%"><value name="img"><shadow type="screen_image_picker" id="T(D#wu2034gii[s]W1_Z"><field name="img">img`
 . . . . . 4 . 4 4 . 4 . . . . . . . . . . . . . . 
 . . . . . 4 4 4 4 4 4 . . . . . . . . . . . . . . 
 . . . . 5 5 5 5 5 5 5 5 5 . . . . . . . . . . . . 
@@ -36,4 +36,21 @@
 . . . . . 3 3 3 3 3 3 3 3 3 3 3 3 3 . . . . . . . 
 . . . . 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 . . . . . . 
 . . . . 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 . . . . . . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">picture</field></shadow></value></block></value></block></next></block></statement></block></xml>
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="m]x7JmBJ3)/[s|`M8;7K"><field name="MEMBER">picture</field></shadow></value></block></value><next><block type="spritesetpos" id="Dn-J0,s!WeKN})B341Fs"><value name="sprite"><block type="variables_get" id="w{]2axcG_G_]YwS7feFE"><field name="VAR" id="BPe/Ykdo?^[dWQ[YSUT`">Peach</field></block></value><value name="x"><shadow type="positionPicker" id="bqNQN(Tesz@Cv?#^C{]0"><field name="index">999</field></shadow></value><value name="y"><shadow type="positionPicker" id="/IY9lu{;x%N_hf5^(!J6"><field name="index">999</field></shadow></value><next><block type="variables_set" id="7#N@|j2~[t.QOHA!TnAl"><field name="VAR" id=",#5K4QqZ9,0k{7L]P|+I">World list</field><value name="VALUE"><block type="lists_create_with" id="oqpI/};aW^9oJ4UeZK.%"><mutation items="4"/><value name="ADD0"><shadow type="math_number" id="E5++j?2kQ1Hu2/L:h1S9"><field name="NUM">1</field></shadow><block type="spritescreate" id="-4?pQ}NLgYfmqGU:=+8;"><value name="img"><shadow type="screen_image_picker" id="5]%YeDdzy3?xK`Uf;|;j"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="G?bEteqCpDGC1Nk;h;OX"><field name="MEMBER">Map</field></shadow></value></block></value><value name="ADD1"><shadow type="math_number" id="OGn3oGvfGAae4_(t,K#O"><field name="NUM">2</field></shadow></value><value name="ADD2"><shadow type="math_number" id="|oeKlAy9bcplS9|4m-]C"><field name="NUM">0</field></shadow></value><value name="ADD3"><shadow type="math_number" id="b]%UhS]C6%(~q?O)vu5G"><field name="NUM">0</field></shadow></value></block></value></block></next></block></next></block></next></block></statement></block><block type="forever" id="gt@YIA3O~!axAn:f-6$:" x="10" y="410"/><block type="keyonevent" id="Oh;5iX,;HY0Y*.3b[ofl" x="270" y="430"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
