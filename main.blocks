@@ -37,20 +37,20 @@
 . . . . 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 . . . . . . 
 . . . . 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 . . . . . . 
 `</field></shadow></value><value name="kind"><shadow type="spritekind" id="m]x7JmBJ3)/[s|`M8;7K"><field name="MEMBER">picture</field></shadow></value></block></value><next><block type="spritesetpos" id="Dn-J0,s!WeKN})B341Fs"><value name="sprite"><block type="variables_get" id="w{]2axcG_G_]YwS7feFE"><field name="VAR" id="BPe/Ykdo?^[dWQ[YSUT`">Peach</field></block></value><value name="x"><shadow type="positionPicker" id="bqNQN(Tesz@Cv?#^C{]0"><field name="index">999</field></shadow></value><value name="y"><shadow type="positionPicker" id="/IY9lu{;x%N_hf5^(!J6"><field name="index">999</field></shadow></value><next><block type="variables_set" id="7#N@|j2~[t.QOHA!TnAl"><field name="VAR" id=",#5K4QqZ9,0k{7L]P|+I">World list</field><value name="VALUE"><block type="lists_create_with" id="oqpI/};aW^9oJ4UeZK.%"><mutation items="4"/><value name="ADD0"><shadow type="math_number" id="E5++j?2kQ1Hu2/L:h1S9"><field name="NUM">1</field></shadow><block type="spritescreate" id="-4?pQ}NLgYfmqGU:=+8;"><value name="img"><shadow type="screen_image_picker" id="5]%YeDdzy3?xK`Uf;|;j"><field name="img">img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+4 d d d d d d d d f 4 d d d d 4 
+d 4 4 4 4 4 4 4 4 f d 4 4 4 4 f 
+d 4 4 4 4 4 4 4 4 f d 4 4 4 4 f 
+d 4 4 4 4 4 4 4 4 f d 4 4 4 4 f 
+d 4 4 4 4 4 4 4 4 f d f 4 4 4 f 
+d 4 4 4 4 4 4 4 4 f 4 f f f f 4 
+d 4 4 4 4 4 4 4 4 f d d d d d f 
+d 4 4 4 4 4 4 4 4 f d 4 4 4 4 f 
+d 4 4 4 4 4 4 4 4 f d 4 4 4 4 f 
+d 4 4 4 4 4 4 4 4 f d 4 4 4 4 f 
+d f 4 4 4 4 4 4 f d 4 4 4 4 4 f 
+d d f f 4 4 4 4 f d 4 4 4 4 4 f 
+d 4 d d f f f f d 4 4 4 4 4 4 f 
+d 4 4 4 d d d f d 4 4 4 4 4 4 f 
+d 4 4 4 4 4 4 f d 4 4 4 4 4 f f 
+4 f f f f f f 4 d f f f f f f 4 
 `</field></shadow></value><value name="kind"><shadow type="spritekind" id="G?bEteqCpDGC1Nk;h;OX"><field name="MEMBER">Map</field></shadow></value></block></value><value name="ADD1"><shadow type="math_number" id="OGn3oGvfGAae4_(t,K#O"><field name="NUM">2</field></shadow></value><value name="ADD2"><shadow type="math_number" id="|oeKlAy9bcplS9|4m-]C"><field name="NUM">0</field></shadow></value><value name="ADD3"><shadow type="math_number" id="b]%UhS]C6%(~q?O)vu5G"><field name="NUM">0</field></shadow></value></block></value></block></next></block></next></block></next></block></statement></block><block type="forever" id="gt@YIA3O~!axAn:f-6$:" x="10" y="410"/><block type="keyonevent" id="Oh;5iX,;HY0Y*.3b[ofl" x="270" y="430"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
