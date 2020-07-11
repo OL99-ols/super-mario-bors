@@ -147,6 +147,7 @@ let Mario = sprites.create(img`
 . . . e e e . . . . e e e . . . 
 . . e e e e . . . . e e e e . . 
 `, SpriteKind.Player)
+Sprite_desappear(Mario)
 let Peach = sprites.create(img`
 . . . . . 4 . 4 4 . 4 . . . . . . . . . . . . . . 
 . . . . . 4 4 4 4 4 4 . . . . . . . . . . . . . . 
@@ -228,22 +229,27 @@ f f f f f f f f f f f f f f f 4
 Sprite_desappear(Block_list[0])
 Sprite_desappear(Block_list[1])
 Sprite_desappear(Block_list[2])
+game.showLongText("Princess Peach got in to trouble!", DialogLayout.Bottom)
+Peach.setPosition(20, 49)
 forever(function () {
-    Mario.say(Mario)
     if (controller.left.isPressed()) {
         Mario.x += -1
+        if (Mario.x < 5) {
+            Mario.x += 1
+        }
     }
     if (controller.right.isPressed()) {
-        X += 1
+        if (Mario.x == 80) {
+            X += 1
+        } else {
+            Mario.x += 1
+        }
     }
     X += X * 0.9
     Map_X += X
     if (controller.A.isPressed()) {
-        if (Mario.overlapsWith(Block_list)) {
+        if (Mario.overlapsWith(Block_list[0])) {
         	
         }
     }
-})
-forever(function () {
-	
 })
